@@ -15,7 +15,7 @@ function Main(props){
                         <a href={`${props.item.googleMapsUrl}`} target="blank">View on Google Maps</a>
                     </div>
 
-                    <h1>Mount Fuji</h1>
+                    <h1>{props.item.title}</h1>
                 </div>
 
                 <div className="info-desc-cont">
